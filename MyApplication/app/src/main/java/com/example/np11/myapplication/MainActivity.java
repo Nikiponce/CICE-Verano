@@ -30,33 +30,17 @@ public class MainActivity extends AppCompatActivity {
 
         Alumno alumno2 = (Alumno)persona_alumno;//Infracasting
 
-        if (alumno instanceof Persona)
-        {
-            // Alumno es una persona
-            Log.d (getClass().getCanonicalName(), "El alumno es una persona!!");
 
-            String nombre_alumno = alumno.obtenerNombre();
 
-            if (nombre_alumno != null )
-            {
-                Log.d(getClass().getCanonicalName(), " El alumno no es nulo");
-            }
-            else
-            {
-                Log.d(getClass().getCanonicalName(), " El alumno es nulo");
-            }
+        EjerciciosRepaso ejercicio = new EjerciciosRepaso();
 
-            try {
-                Log.d(getClass().getCanonicalName(), " = "+ nombre_alumno.length());
-            } catch (Throwable t){
-                Log.e(getClass().getCanonicalName(), "ERROR",t);
-            }
-
+        if (ejercicio.estaLetraEnPalabra("cadena", 'l')){
+            Log.d(getClass().getCanonicalName(), "Si que esta!!");
+        }else{
+            Log.d(getClass().getCanonicalName(), "Que va no esta!!");
         }
-        else {
-            // el alumno no es una persona
-            Log.d (getClass().getCanonicalName(), "El alumno NO es una persona!!");
-        }
+
+        Log.d(getClass().getCanonicalName(), "La letra aparece "+ ejercicio.vecesLetrasEnPalabra("cadena", 'a') +" veces");
     }
 
 }
