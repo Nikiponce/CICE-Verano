@@ -1,6 +1,7 @@
 package com.example.np11.myapplication;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 /**
  * Created by g5 on 13/7/16.
@@ -26,6 +27,8 @@ public class EjerciciosRepaso {
             auxiliar = palabra.charAt(i);
             if (auxiliar == letra){
 =======
+=======
+>>>>>>> origin/master
 /**
  * Created by NP11 on 13/07/2016.
  */
@@ -46,6 +49,9 @@ public class EjerciciosRepaso {
 
         for (int i = 0; i < palabra.length(); i++) {
             if (palabra.charAt(i) == letra) {
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
                 n_veces++;
             }
@@ -54,7 +60,10 @@ public class EjerciciosRepaso {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/master
     //    3) HACER UN MÉTODO QUE DADO UN NÚMERO, DIGA SI ES PAR O NO
     public String numeroPar(int numero) {
         String res = "IMPAR";
@@ -111,5 +120,8 @@ public class EjerciciosRepaso {
         }
         return res;
     }
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 }

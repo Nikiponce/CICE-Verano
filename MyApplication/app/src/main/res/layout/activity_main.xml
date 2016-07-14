@@ -13,8 +13,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:text="Hello World!" />
 =======
+=======
+>>>>>>> origin/master
         android:text="Hola Mundo" />
 
     <TextClock
@@ -24,11 +27,15 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
 <<<<<<< HEAD
         android:text="New Button"
         android:id="@+id/button"
@@ -36,6 +43,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="33dp" />
 =======
+=======
+>>>>>>> origin/master
         android:text="Ver más"
         android:id="@+id/button"
         android:layout_alignParentBottom="true"
@@ -43,5 +52,8 @@
         android:background="#315e8b"
         android:textColor="#ffffff" />
 
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 </RelativeLayout>

@@ -103,6 +103,9 @@ public class MainActivity extends AppCompatActivity {
 //    7) HACER UN PROGRAMA QUE MUESTRE LA SECUENCIA 3, 6, 9, 12, 15 ...99
         Log.d(getClass().getCanonicalName(), "La secuencia de número de 3 en 3 hasta el 99 es: " + ejerciciosRepaso.secuenciaDe3En3());
 
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
     }
 
